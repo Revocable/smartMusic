@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*   
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar 
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track 
+{
+    border: 0px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: #1ed760;
+    border-radius: 10px;
+}
+
+body 
+{
+    overflow: hidden;
+    background-color: #090a0c;
+}
+
+.container 
+{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#fill
+{
+    position: relative;
+    padding: 100px;
+}
+
+.container 
+{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
+nav 
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 80px;
+  line-height: 80px;
+  z-index: 111;
+}
+
+.logo 
+{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b
+{
+    font-size: 70px;
+    color: #01d475;
+}
+
+.navItems
+{
+    display: flex;
+}
+
+.navItems li
+{
+    list-style: none;
+    margin: 0 30px;
+}
+
+.navItems li a
+{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a, .links a:hover
+{
+    color: #1ed760;
+}
+
+.links a
+{
+    font-size: 30px;
+    color: #fff;
+    margin: 25px 70px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.input-group {
+    display: flex;
+}
+
+.form-control {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.input-group-append {
+    display: flex;
+    align-items: center;
+}
+
+.btnSpotify {
+    font-size: 16px;
+    padding: 7px 20px;
+    background-color: #1ed760;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btnSpotify:hover {
+    background-color: #01d475;
+}
